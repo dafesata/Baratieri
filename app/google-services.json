@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1073581632618",
+    "firebase_url": "https://baratieri-5c63f.firebaseio.com",
+    "project_id": "baratieri-5c63f",
+    "storage_bucket": "baratieri-5c63f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073581632618:android:d529a2db97a59879",
+        "android_client_info": {
+          "package_name": "com.example.daniel.baratieri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073581632618-581so3vv4kgkc12b45v6p398jqiirt8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daniel.baratieri",
+            "certificate_hash": "c1bc6210e51ebd95a229aedbae591400f54e0138"
+          }
+        },
+        {
+          "client_id": "1073581632618-lh7t99ekp857o8k81ptnlh6itrfe939q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnwjH6FVRIaVxMaSjNr1qraBipZYjkY4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073581632618-lh7t99ekp857o8k81ptnlh6itrfe939q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
