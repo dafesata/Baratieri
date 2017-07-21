@@ -15,7 +15,7 @@ import com.facebook.login.LoginManager;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class ActivityMain extends AppCompatActivity implements View.OnClickListener{
-    ImageView buscarprod,ayuda;
+    ImageView buscarprod,ayuda,scan;
     EditText producto;
 
 
@@ -35,6 +35,9 @@ public class ActivityMain extends AppCompatActivity implements View.OnClickListe
 
         ayuda = (ImageView) findViewById(R.id.help);
         ayuda.setOnClickListener(this);
+
+        scan=(ImageView) findViewById(R.id.Scan_Code);
+        scan.setOnClickListener(this);
 
 
 
@@ -62,11 +65,16 @@ public class ActivityMain extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        Intent i;
 
         switch (view.getId()) {
 
             case R.id.help :
-                Intent i = new Intent(this, ActivityHelp.class);
+                 i = new Intent(this, ActivityHelp.class);
+                startActivity(i);
+                break;
+            case R.id.Scan_Code :
+                i = new Intent(this, ActivityScan.class);
                 startActivity(i);
                 break;
         }

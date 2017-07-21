@@ -1,6 +1,6 @@
 <resources>
-    <item name="visible" type="id"/>
-    <item name="masked" type="id"/>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
 
     <string name="facebook_app_id">136605686894499</string>
     <string name="fb_login_protocol_scheme">fb136605686894499</string>
